@@ -1,8 +1,0 @@
-{
-    "functions": {
-      "main.py": {
-        "runtime": "vercel-python@0.4.0"
-      }
-    }
-  }
-  
