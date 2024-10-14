@@ -45,7 +45,7 @@ def webhook():
 
         # Append all information to Supabase
         created_at = datetime.now(pytz.timezone('Europe/Paris')).isoformat()  # UTC +1 timezone
-        response = supabase.table('your_table_name').insert({
+        response = supabase.table('orders').insert({
             'order_id': order_id,
             'product_id': product_id,
             'full_name': full_name,
